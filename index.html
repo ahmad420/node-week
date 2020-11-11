@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMDP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img src="src/img/logo5.png">
+            </div>
+        </div>
+        <div class="search-bar">
+            <form autocomplete="off" class="search" onsubmit="return shoMovieName(event)">
+                <input id="myInput" type="text" placeholder="Search for a Movie ..." name="search">
+                <button class="searchBtn" type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+
+        <div class="info">
+            <div>
+                <h1 id="movieName">interstellar</h1>
+                <ul id="moreinfo">
+                    <li>
+                        <h4>Release date:</h4> November 6, 2014
+                    </li>
+                    <li>
+                        <h4>Director:</h4> Christopher Nolan
+                    </li>
+                    <li>
+                        <h4>Box office:</h4> 696.3 million USD
+                    </li>
+                </ul>
+            </div>
+            <div class="img">
+                <img src="src/img/Interstellar_film_poster.jpg" class="movie-img">
+            </div>
+        </div>
+
+        <h1>Popular Movies</h1>
+
+        <div class="series">
+
+            <div class="row">
+                <div class="serimg"><img src="src/img/thestar.jpg"></div>
+                <div class="serimg"><img src="src/img/jungle2.jpg"></div>
+                <div class="serimg"><img src="src/img/blabla.jpg"></div>
+                <div class="serimg"><img src="src/img/beauty.jpg"></div>
+                <div class="serimg"><img src="src/img/homealone2.jpg"></div>
+            </div>
+        </div>
+
+        <div class="footer">
+
+        </div>
+    </div>
+
+
+    <script src="src/script.js"></script>
+</body>
+
+</html>
