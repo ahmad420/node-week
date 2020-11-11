@@ -25,6 +25,4 @@ The list is dynamically generated from a pre-populated list of values after you 
 
 # Contact US
 - Ahmad: @GitHub
-- halaassaly: @GitHub
-- Myassar: @GitHub
-- nuwrss: @GitHub
+
