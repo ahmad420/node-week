@@ -4,11 +4,16 @@
   "version": "1.0.0",
   "main": "test.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js | tap-spec",
+    "start": "node ./server/server.js",
+    "dev": "nodemon ./server/server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "tape": "^5.0.1"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.6"
   }
 }
