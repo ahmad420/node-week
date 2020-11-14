@@ -4,8 +4,8 @@ In this website enables users to quickly find and select words from a list of su
 The list is dynamically generated from a pre-populated list of values after you type in search icon.
 
 <p align="center">
-  <img src="/src/img/readme0.jpg" width=290px height=260px />
-   <img src="/src/img/readme1.jpg" width=290px height=260px />
+  <img src="/src/img/readme0.jpg" width=360px height=260px />
+   <img src="/src/img/readme1.jpg" width=360px height=260px />
 </p>
 <h2 align="center"><a href=" ">TRY THE WEBSITE</h2>
 
